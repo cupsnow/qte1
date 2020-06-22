@@ -17,13 +17,16 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    task.cpp
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    task.h
 
 FORMS += \
-    mainwindow.ui
+    mainwindow.ui \
+    task.ui
 
 TRANSLATIONS += \
     qte1_zh_TW.ts
